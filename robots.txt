@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nkosi-thatchers.co.za/sitemap.xml
