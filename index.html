@@ -45,13 +45,23 @@
   "email": "info@nkosi-thatchers.co.za",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "11-13, 193 Smith Street, Braamfontein",
+    "addressLocality": "Johannesburg",
     "addressRegion": "Gauteng",
     "addressCountry": "ZA"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
   },
   "areaServed": {
     "@type": "AdministrativeArea",
     "name": "Gauteng Province"
   },
+  "sameAs": [
+    "https://www.facebook.com/NKOSITHATCHERS",
+    "https://www.instagram.com/nkosi7443"
+  ],
   "knowsAbout": ["Thatch roofing", "Re-thatching", "Lapas", "Rondavels", "Thatch roof repairs"]
 }
 </script>
@@ -154,7 +164,7 @@
       </li>
       <li class="card">
         <h3>Fire &amp; waterproofing treatment</h3>
-        <p>Protective treatment of the thatch. <!-- [[CONFIRM: do you offer fire-retardant / waterproofing spray? which product?]] --></p>
+        <p>Fire-retardant treatment using Thatch Marshall (SABS approved), backed by a 5-year certificate.</p>
       </li>
     </ul>
   </div>
@@ -167,36 +177,56 @@
     <h2 id="gallery-title">Recent thatch projects</h2>
     <p class="section-lead">Roofs, lapas and rondavels we&rsquo;ve built and restored across Gauteng. Tap any photo to enlarge it.</p>
 
+    <!-- Team photo — prominent feature -->
+    <figure class="team-feature">
+      <a class="gallery-item team-item" href="images/team-1599.webp" data-full="images/team-1599.webp">
+        <picture>
+          <source type="image/webp" srcset="images/team-800.webp 800w, images/team-1599.webp 1599w" sizes="(min-width:900px) 1040px, 100vw">
+          <img src="images/team-800.jpg" srcset="images/team-800.jpg 800w, images/team-1599.jpg 1599w" sizes="(min-width:900px) 1040px, 100vw" width="1599" height="1200" loading="lazy" decoding="async" alt="Five members of the Nkosi Thatchers team standing together in front of a newly thatched open lapa.">
+        </picture>
+      </a>
+      <figcaption>The Nkosi Thatchers team on site in Gauteng.</figcaption>
+    </figure>
+
+    <h3 class="gallery-subhead">Before &amp; after</h3>
+    <p class="ba-lead">The same jobs &mdash; before we started, and after we finished.</p>
+    <div class="ba-grid">
+      <div class="ba-pair">
+        <a class="gallery-item" href="images/lapa-before-960.webp" data-full="images/lapa-before-960.webp">
+          <span class="badge badge-before">Before</span>
+          <picture>
+            <source type="image/webp" srcset="images/lapa-before-400.webp 400w, images/lapa-before-800.webp 800w" sizes="(min-width:700px) 46vw, 92vw">
+            <img src="images/lapa-before-400.jpg" srcset="images/lapa-before-400.jpg 400w, images/lapa-before-800.jpg 800w" sizes="(min-width:700px) 46vw, 92vw" width="400" height="398" loading="lazy" decoding="async" alt="A weathered thatch lapa with a sagging, uneven roof beside a swimming pool, before re-thatching.">
+          </picture>
+        </a>
+        <a class="gallery-item" href="images/lapa-after-1440.webp" data-full="images/lapa-after-1440.webp">
+          <span class="badge badge-after">After</span>
+          <picture>
+            <source type="image/webp" srcset="images/lapa-after-400.webp 400w, images/lapa-after-800.webp 800w" sizes="(min-width:700px) 46vw, 92vw">
+            <img src="images/lapa-after-400.jpg" srcset="images/lapa-after-400.jpg 400w, images/lapa-after-800.jpg 800w" sizes="(min-width:700px) 46vw, 92vw" width="400" height="290" loading="lazy" decoding="async" alt="The same poolside lapa after re-thatching, with a fresh, neatly finished domed thatch roof.">
+          </picture>
+        </a>
+      </div>
+      <div class="ba-pair">
+        <a class="gallery-item" href="images/braai-before-960.webp" data-full="images/braai-before-960.webp">
+          <span class="badge badge-before">Before</span>
+          <picture>
+            <source type="image/webp" srcset="images/braai-before-400.webp 400w, images/braai-before-800.webp 800w" sizes="(min-width:700px) 46vw, 92vw">
+            <img src="images/braai-before-400.jpg" srcset="images/braai-before-400.jpg 400w, images/braai-before-800.jpg 800w" sizes="(min-width:700px) 46vw, 92vw" width="400" height="392" loading="lazy" decoding="async" alt="A poolside braai gazebo with an ageing thatch roof and painted walls, before re-thatching.">
+          </picture>
+        </a>
+        <a class="gallery-item" href="images/gazebo-after-1440.webp" data-full="images/gazebo-after-1440.webp">
+          <span class="badge badge-after">After</span>
+          <picture>
+            <source type="image/webp" srcset="images/gazebo-after-400.webp 400w, images/gazebo-after-800.webp 800w" sizes="(min-width:700px) 46vw, 92vw">
+            <img src="images/gazebo-after-400.jpg" srcset="images/gazebo-after-400.jpg 400w, images/gazebo-after-800.jpg 800w" sizes="(min-width:700px) 46vw, 92vw" width="400" height="357" loading="lazy" decoding="async" alt="The same poolside gazebo after re-thatching, with a neat conical thatch roof, framed by palms.">
+          </picture>
+        </a>
+      </div>
+    </div>
+
+    <h3 class="gallery-subhead">More of our work</h3>
     <div class="gallery" id="gallery-grid">
-      <!-- Each item: link opens the large image (works without JS); JS upgrades to a lightbox. -->
-      <a class="gallery-item" href="images/lapa-after-1440.webp" data-full="images/lapa-after-1440.webp">
-        <span class="badge badge-after">After</span>
-        <picture>
-          <source type="image/webp" srcset="images/lapa-after-400.webp 400w, images/lapa-after-800.webp 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw">
-          <img src="images/lapa-after-400.jpg" srcset="images/lapa-after-400.jpg 400w, images/lapa-after-800.jpg 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw" width="400" height="290" loading="lazy" decoding="async" alt="A newly thatched poolside lapa with a steep conical roof and open sides, beside a house with a red tile roof.">
-        </picture>
-      </a>
-      <a class="gallery-item" href="images/gazebo-after-1440.webp" data-full="images/gazebo-after-1440.webp">
-        <span class="badge badge-after">After</span>
-        <picture>
-          <source type="image/webp" srcset="images/gazebo-after-400.webp 400w, images/gazebo-after-800.webp 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw">
-          <img src="images/gazebo-after-400.jpg" srcset="images/gazebo-after-400.jpg 400w, images/gazebo-after-800.jpg 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw" width="400" height="357" loading="lazy" decoding="async" alt="A freshly thatched garden gazebo with a neat conical roof, framed by palms and greenery beside a swimming pool.">
-        </picture>
-      </a>
-      <a class="gallery-item" href="images/lapa-before-960.webp" data-full="images/lapa-before-960.webp">
-        <span class="badge badge-before">Before</span>
-        <picture>
-          <source type="image/webp" srcset="images/lapa-before-400.webp 400w, images/lapa-before-800.webp 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw">
-          <img src="images/lapa-before-400.jpg" srcset="images/lapa-before-400.jpg 400w, images/lapa-before-800.jpg 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw" width="400" height="398" loading="lazy" decoding="async" alt="A weathered thatch lapa with a sagging, uneven roof beside a swimming pool, before re-thatching.">
-        </picture>
-      </a>
-      <a class="gallery-item" href="images/braai-before-960.webp" data-full="images/braai-before-960.webp">
-        <span class="badge badge-before">Before</span>
-        <picture>
-          <source type="image/webp" srcset="images/braai-before-400.webp 400w, images/braai-before-800.webp 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw">
-          <img src="images/braai-before-400.jpg" srcset="images/braai-before-400.jpg 400w, images/braai-before-800.jpg 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw" width="400" height="392" loading="lazy" decoding="async" alt="A poolside braai area with an ageing thatch roof and painted walls, before re-thatching.">
-        </picture>
-      </a>
       <a class="gallery-item" href="images/house-dawn-1599.webp" data-full="images/house-dawn-1599.webp">
         <picture>
           <source type="image/webp" srcset="images/house-dawn-400.webp 400w, images/house-dawn-800.webp 800w" sizes="(min-width:900px) 30vw, (min-width:600px) 46vw, 92vw">
@@ -304,16 +334,16 @@
 
     <ul class="grid why-grid">
       <li class="card why-card">
-        <strong class="why-stat">[[CONFIRM: years in business]]</strong>
-        <span>Years thatching roofs across Gauteng</span>
+        <strong class="why-stat">15 years</strong>
+        <span>Of satisfied clients across Gauteng</span>
+      </li>
+      <li class="card why-card">
+        <strong class="why-stat">5-year certificate</strong>
+        <span>Fire-retardant treatment with Thatch Marshall &mdash; SABS approved</span>
       </li>
       <li class="card why-card">
         <strong class="why-stat">[[CONFIRM: roofs / jobs completed]]</strong>
         <span>Thatch roofs and lapas completed</span>
-      </li>
-      <li class="card why-card">
-        <strong class="why-stat">[[CONFIRM: workmanship guarantee?]]</strong>
-        <span>Workmanship guarantee on our thatch</span>
       </li>
     </ul>
   </div>
@@ -330,7 +360,8 @@
         <li><a href="tel:+27781664646"><span class="ci">&#9742;</span> 078 166 4646</a></li>
         <li><a href="https://wa.me/27781664646" rel="noopener"><span class="ci">&#128172;</span> WhatsApp us</a></li>
         <li><a href="mailto:info@nkosi-thatchers.co.za"><span class="ci">&#9993;</span> info@nkosi-thatchers.co.za</a></li>
-        <li><span class="ci">&#128205;</span> Gauteng Province, South Africa</li>
+        <li><span class="ci">&#128205;</span> 11&ndash;13, 193 Smith Street, Braamfontein, Johannesburg</li>
+        <li><span class="ci">&#128336;</span> Open Monday to Friday</li>
       </ul>
     </div>
 
@@ -408,11 +439,15 @@
     <div>
       <p class="footer-brand">Nkosi Thatchers</p>
       <p>Thatch roofing across Gauteng Province, South Africa.</p>
+      <p>11&ndash;13, 193 Smith Street, Braamfontein, Johannesburg</p>
+      <p>Open Monday to Friday</p>
     </div>
     <div>
       <p><a href="tel:+27781664646">078 166 4646</a></p>
       <p><a href="https://wa.me/27781664646" rel="noopener">WhatsApp</a></p>
       <p><a href="mailto:info@nkosi-thatchers.co.za">info@nkosi-thatchers.co.za</a></p>
+      <p><a href="https://www.facebook.com/NKOSITHATCHERS" rel="noopener">Facebook</a></p>
+      <p><a href="https://www.instagram.com/nkosi7443" rel="noopener">Instagram</a></p>
     </div>
     <p class="footer-copy">&copy; <span id="year">2026</span> Nkosi Thatchers. All rights reserved.</p>
   </div>

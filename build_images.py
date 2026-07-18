@@ -20,6 +20,8 @@ WEBP_Q = 80
 IMAGES = {
     # hero
     "hero-house-pool":   "WhatsApp Image 2026-07-17 at 17.06.12.jpeg",
+    # team
+    "team":              "WhatsApp Image 2026-07-17 at 17.06.04 (1).jpeg",
     # gallery
     "lapa-after":        "WhatsApp Image 2026-07-17 at 17.06.05 (2).jpeg",
     "gazebo-after":      "WhatsApp Image 2026-07-17 at 17.06.05.jpeg",

@@ -16,3 +16,6 @@ venv/
 # Local scratch
 *.log
 /tmp/
+
+# Generated single-file preview (rebuild with: py build_preview.py)
+preview-nkosi-thatchers.html

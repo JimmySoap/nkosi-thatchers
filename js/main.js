@@ -43,7 +43,9 @@
       current = (i + items.length) % items.length;
       var link = items[current];
       var img = link.querySelector("img");
-      lbImg.src = link.getAttribute("data-full") || link.getAttribute("href");
+      var full = link.getAttribute("data-full");
+      if (!full || full === "#") full = img ? (img.currentSrc || img.src) : link.getAttribute("href");
+      lbImg.src = full;
       lbImg.alt = img ? img.alt : "";
     }
     function open(i, trigger) {
