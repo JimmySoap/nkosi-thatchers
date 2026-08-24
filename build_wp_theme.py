@@ -27,7 +27,7 @@ for d in (ASSETS, os.path.join(ASSETS, "js"), os.path.join(ASSETS, "fonts"), os.
 html = open("index.html", encoding="utf-8").read()
 
 # shield the absolute OG image URL (contains 'images/') before the generic pass
-html = html.replace("https://www.nkosi-thatchers.co.za/images/og-image.jpg", "%%OG%%")
+html = html.replace("https://nkosithatchers.com/images/og-image.jpg", "%%OG%%")
 
 # CSS + JS are enqueued via functions.php — drop the static tags
 html = re.sub(r'\s*<link rel="stylesheet" href="css/styles\.css">', "", html)
