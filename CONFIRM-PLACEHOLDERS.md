@@ -11,7 +11,7 @@ placeholder on the page, or a decision to make.
 | 1 | `[[CONFIRM SERVICES]]` | Services section (HTML comment above it) | Confirm which of the 6 proposed services you actually offer; correct or remove any. Services listed: New thatch roofs · Lapas & entertainment areas · Re-thatching · Repairs & maintenance · Ridging & capping · Fire & waterproofing treatment. |
 | 2 | ~~fire-retardant / waterproofing~~ | Service card | ✅ DONE — "Fire-retardant treatment using Thatch Marshall (SABS approved), 5-year certificate." |
 | 3 | ~~years in business~~ | Stat card | ✅ DONE — "15 years of satisfied clients". |
-| 4 | `[[CONFIRM: roofs / jobs completed]]` | "Why choose us" stat card | ⛔ STILL OPEN — give a number (e.g. "500+ roofs") or say to delete this one card. |
+| 4 | ~~roofs / jobs completed~~ | Stat card | ✅ DONE — card removed (no number available); "Why choose us" now shows two cards: 15 years · 5-year certificate. |
 | 5 | ~~workmanship guarantee~~ | Stat card | ✅ DONE — "5-year certificate · fire-retardant, Thatch Marshall, SABS approved". |
 
 ## B. Decisions / facts to confirm (not yet on the page)
