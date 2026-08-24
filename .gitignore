@@ -19,3 +19,7 @@ venv/
 
 # Generated single-file preview (rebuild with: py build_preview.py)
 preview-nkosi-thatchers.html
+
+# Generated WordPress theme (rebuild with: py build_wp_theme.py)
+wp-theme/
+nkosi-thatchers-theme.zip
